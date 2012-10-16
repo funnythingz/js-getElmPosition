@@ -1,17 +1,18 @@
 js-getElmPosition
 =================
 
-##Howto
+Howto
+-------------
 * getElmPosition(elm).top
 * getElmPosition(elm).left
 
-##Example
-
+Example
+-------------
 DOM
 <pre><code>
-<section>
-  <div id="hoge">hoge</div>
-</section>
+&lt;section&gt;
+  &lt;div id="hoge"&gt;hoge&lt;/div&gt;
+/&lt;section&gt;
 </code></pre>
 
 JS
