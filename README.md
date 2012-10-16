@@ -9,13 +9,13 @@ Howto
 Example
 -------------
 DOM
-<pre><code>
+<pre>
 &lt;section&gt;
   &lt;div id="hoge"&gt;hoge&lt;/div&gt;
-/&lt;section&gt;
-</code></pre>
+&lt;/section&gt;
+</pre>
 
 JS
-<pre><code>
+<pre>
 getElmPosition(document.getElementById('hoge').top);
-</code></pre>
+</pre>
