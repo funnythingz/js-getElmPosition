@@ -1,37 +1,39 @@
-js-getElmPosition
-=================
+# js-getElmPosition
 
-Howto
--------------
-* getElmPosition(elm).top
-* getElmPosition(elm).left
+## Howto
 
-Reference
--------------
+- getElmPosition(elm).top
+- getElmPosition(elm).left
+
+## Reference
+
 DOM
-<pre>
-&lt;div&gt;
+
+```html
+<div>
   parent
-  &lt;div id="hoge"&gt;hoge&lt;/div&gt;
-&lt;/div&gt;
-</pre>
+  <div id="hoge">hoge</div>
+</div>
+```
 
 JS
-<pre>
+
+```javascript
 getElmPosition(document.getElementById('hoge')).top;
-</pre>
+```
 
 Example
-<pre>
-&lt;!Doctype html&gt;
-&lt;html&gt;&lt;body&gt;
-&lt;div&gt;
+
+```html
+<!Doctype html>
+<html><body>
+<div>
   parent
-  &lt;div id="hoge"&gt;hoge&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src="get_elm_position.js"&gt;&lt;/script&gt;
-&lt;script&gt;
+  <div id="hoge">hoge</div>
+</div>
+<script src="get_elm_position.js"></script>
+<script>
 alert(getElmPosition(document.getElementById('hoge')).top);
-&lt;/script&gt;
-&lt;/body&gt;&lt;/html&gt;
-</pre>
+</script>
+</body></html>
+```
